@@ -1,10 +1,12 @@
-html {
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 
 .menu-container {
+  display: flex;
+  justify-content: center;
   color: #fff;
   background-color: blue;
   padding: 20px 0;
@@ -13,4 +15,6 @@ html {
 .menu {
   border: 1px solid #fff;
   width: 900px;
+  display: flex;
+  justify-content: space-around;
 }
