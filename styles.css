@@ -4,95 +4,90 @@
   box-sizing: border-box;
 }
 
-.menu-container {
+nav {
+  padding: 5vh;
+  background: blue;
+  color: white;
+}
+
+footer {
   display: flex;
-  justify-content: center;
-  color: #fff;
-  background-color: blue;
-  padding: 20px 0;
+  justify-content: space-between;
+  padding: 3vh;
+  background-color: green;
 }
 
 .menu {
-  width: 900px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.signup {
-  margin-left: auto;
-}
-
-.links {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.login {
-  margin-left: 20px;
-}
-
-.header-container {
-  color: #5995DA;
-  background-color: #D6E9FE;
-  display: flex;
-  justify-content: center;
-}
-
-.header {
-  width: 900px;
-  height: 300px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
-.photo-grid-container {
-  display: flex;
-  justify-content: center;
+.menu a {
+  color: white;
 }
 
-.photo-grid {
-  width: 900px;
+.nav-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex: .5;
+}
+
+.main-area {
+  background-color: red;
+  display: flex;
+}
+
+.side-nav {
+  display: flex;
+  background-color: orange;
+  flex-direction: column;
+  padding: 10px;
+  height: 80vh;
+  width: 15vw;
+}
+
+.side-nav-item {
+  padding: 3px;
+}
+
+.main-screen {
+  padding: 10px;
+  width: 85vw;
+}
+
+.screen-title {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.main-components {
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
 }
 
-.photo-grid-item {
-  border: 1px solid #fff;
-  width: 300px;
-  height: 300px;
+.component-image {
+  background-color: purple;
+  height: 12vw;
+  width: 25vw;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.first-item {
-  order: 1;
-}
-
-.last-item {
-  order: -1;
-}
-
-.social, .subscribe {
-  align-self: flex-end;
-  margin-bottom: 20px;
-}
-
-.footer {
+.footer-first {
   display: flex;
   justify-content: space-between;
 }
 
 .footer-item {
-  border: 1px solid #fff;
-  background-color: #D6E9FE;
-  height: 200px;
-  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 15px;
 }
 
-.footer-one, .footer-three {
-  background-color: #5995DA;
-  flex: initial;
-  width: 300px;
+.social-sharing {
+  padding-right: 10px;
 }
